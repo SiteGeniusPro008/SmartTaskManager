@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1C4770">
+  <meta name="description" content="Read the Privacy Policy and Terms & Conditions for SmArt Task ManageR by Bharatiya Innovators. Learn how your task data is stored, how reminders work, and how to contact the developer.">
+  <title>Privacy Policy & Terms | SmArt Task ManageR</title>
+
+  <style>
+    :root {
+      --primary: #2C7CCF;
+      --deep-blue: #1C4770;
+      --teal: #1C8D67;
+      --orange: #FF8C36;
+      --background: #F8FCFF;
+      --surface: #FFFFFF;
+      --text: #25364B;
+      --muted: #66788A;
+      --border: #E2ECF5;
+      --soft-blue: #EEF6FF;
+      --soft-teal: #ECF8F2;
+      --soft-orange: #FFF5EB;
+      --shadow: 0 8px 28px rgba(28, 71, 112, 0.07);
+      --radius: 16px;
+      --content-width: 1040px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 105px;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+      overflow-wrap: anywhere;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--deep-blue);
+      text-decoration: underline;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--orange);
+      outline-offset: 4px;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+
+    .header-inner {
+      max-width: 1180px;
+      min-height: 78px;
+      padding: 12px 28px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      min-width: 0;
+    }
+
+    .brand-logo {
+      width: 54px;
+      height: 54px;
+      flex: 0 0 54px;
+      display: grid;
+      place-items: center;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 13px;
+      overflow: hidden;
+    }
+
+    .brand-logo img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .brand-name {
+      margin: 0;
+      color: var(--deep-blue);
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.3;
+      letter-spacing: -0.5px;
+    }
+
+    .brand-tagline {
+      margin: 3px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .header-contact {
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--deep-blue);
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    .header-contact svg {
+      width: 17px;
+      height: 17px;
+      color: var(--teal);
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 66px 24px 78px;
+      background:
+        radial-gradient(ellipse at 10% 0%, rgba(44, 124, 207, 0.13), transparent 42%),
+        radial-gradient(ellipse at 95% 90%, rgba(28, 141, 103, 0.12), transparent 38%),
+        linear-gradient(145deg, #FFFFFF 0%, #F0F7FF 100%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: var(--content-width);
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 13px;
+      color: var(--teal);
+      background: var(--soft-teal);
+      border: 1px solid #D5EFE1;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 750;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow-dot {
+      width: 7px;
+      height: 7px;
+      background: var(--teal);
+      border-radius: 50%;
+    }
+
+    .hero h1 {
+      margin: 22px 0 12px;
+      color: var(--deep-blue);
+      font-size: clamp(30px, 5vw, 48px);
+      font-weight: 850;
+      letter-spacing: -1.7px;
+      line-height: 1.17;
+    }
+
+    .hero h1 span {
+      color: var(--primary);
+    }
+
+    .hero-description {
+      max-width: 650px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.85;
+    }
+
+    .hero-badges {
+      margin-top: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .info-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 13px;
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--deep-blue);
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    .info-badge svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+      color: var(--primary);
+    }
+
+    .info-badge.orange svg {
+      color: var(--orange);
+    }
+
+    .page-container {
+      max-width: var(--content-width);
+      margin: 0 auto;
+      padding: 0 24px 70px;
+    }
+
+    .tab-navigation {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      width: fit-content;
+      max-width: 100%;
+      margin: -26px auto 32px;
+      padding: 7px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 15px;
+      box-shadow: 0 7px 24px rgba(28, 71, 112, 0.09);
+    }
+
+    .tab-button {
+      min-height: 45px;
+      padding: 10px 23px;
+      border: 0;
+      border-radius: 10px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 750;
+      transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .tab-button[aria-selected="true"] {
+      background: var(--deep-blue);
+      color: #FFFFFF;
+      box-shadow: 0 3px 9px rgba(28, 71, 112, 0.15);
+    }
+
+    .tab-button:hover:not([aria-selected="true"]) {
+      background: var(--soft-blue);
+      color: var(--deep-blue);
+    }
+
+    .document-panel {
+      animation: appear 0.3s ease both;
+    }
+
+    .document-panel[hidden] {
+      display: none;
+    }
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .document-heading {
+      margin: 0 0 20px;
+    }
+
+    .document-heading h2 {
+      margin: 0;
+      color: var(--deep-blue);
+      font-size: clamp(25px, 3vw, 32px);
+      font-weight: 820;
+      letter-spacing: -0.8px;
+      line-height: 1.3;
+    }
+
+    .document-heading p {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .privacy-callout {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      margin-bottom: 23px;
+      padding: 21px 23px;
+      background: var(--soft-teal);
+      border: 1px solid #D5EFE1;
+      border-radius: var(--radius);
+    }
+
+    .callout-icon {
+      display: grid;
+      place-items: center;
+      flex: 0 0 42px;
+      width: 42px;
+      height: 42px;
+      background: white;
+      border-radius: 12px;
+      color: var(--teal);
+    }
+
+    .callout-icon svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    .privacy-callout h3 {
+      margin: 0 0 4px;
+      color: #176E51;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .privacy-callout p {
+      margin: 0;
+      color: #426A5C;
+      font-size: 14px;
+      line-height: 1.75;
+    }
+
+    .content-card {
+      margin-bottom: 19px;
+      padding: 29px 32px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 105px;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .section-number {
+      display: grid;
+      place-items: center;
+      flex: 0 0 38px;
+      width: 38px;
+      height: 38px;
+      background: var(--soft-blue);
+      color: var(--primary);
+      border-radius: 11px;
+      font-size: 14px;
+      font-weight: 850;
+    }
+
+    .section-heading h3 {
+      margin: 3px 0 0;
+      color: var(--deep-blue);
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      line-height: 1.45;
+    }
+
+    .content-card p {
+      margin: 0 0 13px;
+      color: #526478;
+    }
+
+    .content-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .content-card strong {
+      color: #2B4057;
+      font-weight: 750;
+    }
+
+    .content-card ul {
+      margin: 10px 0 16px;
+      padding-left: 22px;
+      color: #526478;
+    }
+
+    .content-card li {
+      margin: 8px 0;
+      padding-left: 4px;
+    }
+
+    .content-card li::marker {
+      color: var(--teal);
+    }
+
+    .permission-list {
+      list-style: none;
+      padding: 0 !important;
+      margin-top: 17px !important;
+    }
+
+    .permission-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 13px;
+      margin: 0 0 11px !important;
+      padding: 15px;
+      background: #FBFDFF;
+      border: 1px solid #E8F0F7;
+      border-radius: 12px;
+    }
+
+    .permission-check {
+      display: grid;
+      place-items: center;
+      flex: 0 0 30px;
+      width: 30px;
+      height: 30px;
+      margin-top: 1px;
+      background: var(--soft-blue);
+      border-radius: 9px;
+      color: var(--primary);
+    }
+
+    .permission-check svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .permission-copy {
+      min-width: 0;
+    }
+
+    .permission-copy code {
+      display: inline-block;
+      margin-bottom: 4px;
+      padding: 3px 7px;
+      background: #EAF3FF;
+      border: 1px solid #DCEAFF;
+      border-radius: 6px;
+      color: #205C9D;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 12px;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .permission-copy p {
+      margin: 0;
+      font-size: 13px;
+      line-height: 1.75;
+    }
+
+    .note-box {
+      margin-top: 16px;
+      padding: 15px 18px;
+      background: var(--soft-orange);
+      border-left: 4px solid var(--orange);
+      border-radius: 8px;
+      color: #80522C;
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .developer-card {
+      position: relative;
+      overflow: hidden;
+      margin-top: 25px;
+      padding: 30px;
+      background: linear-gradient(135deg, #1C4770 0%, #235B89 100%);
+      border-radius: var(--radius);
+      color: white;
+      box-shadow: 0 12px 30px rgba(28, 71, 112, 0.18);
+    }
+
+    .developer-card::after {
+      position: absolute;
+      content: "";
+      width: 190px;
+      height: 190px;
+      top: -100px;
+      right: -55px;
+      border: 25px solid rgba(255, 255, 255, 0.055);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .developer-card-inner {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .developer-icon {
+      display: grid;
+      place-items: center;
+      flex: 0 0 54px;
+      width: 54px;
+      height: 54px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.17);
+      border-radius: 14px;
+    }
+
+    .developer-icon svg {
+      width: 27px;
+      height: 27px;
+      color: #FFFFFF;
+    }
+
+    .developer-card .small-label {
+      margin: 0 0 3px;
+      color: #BFD9F2;
+      font-size: 11px;
+      font-weight: 750;
+      letter-spacing: 1.3px;
+      text-transform: uppercase;
+    }
+
+    .developer-card h3 {
+      margin: 0 0 7px;
+      color: #FFFFFF;
+      font-size: 21px;
+      font-weight: 800;
+      line-height: 1.4;
+    }
+
+    .developer-card p {
+      margin: 0;
+      color: #E0ECF7;
+      font-size: 13px;
+    }
+
+    .developer-email {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 9px;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .developer-email:hover {
+      color: #CDE8FF;
+    }
+
+    .developer-email svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .footer {
+      padding: 28px 24px;
+      background: #FFFFFF;
+      border-top: 1px solid var(--border);
+      text-align: center;
+    }
+
+    .footer p {
+      margin: 4px 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .footer-brand {
+      color: var(--deep-blue) !important;
+      font-size: 13px !important;
+      font-weight: 800;
+    }
+
+    .footer-accent {
+      color: var(--teal);
+    }
+
+    .back-to-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .back-to-top svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    @media (max-width: 700px) {
+      html {
+        scroll-padding-top: 85px;
+      }
+
+      .header-inner {
+        min-height: 70px;
+        padding: 10px 16px;
+        gap: 10px;
+      }
+
+      .brand {
+        gap: 10px;
+      }
+
+      .brand-logo {
+        width: 45px;
+        height: 45px;
+        flex-basis: 45px;
+        border-radius: 11px;
+      }
+
+      .brand-name {
+        font-size: 15px;
+        letter-spacing: -0.3px;
+      }
+
+      .brand-tagline {
+        max-width: 240px;
+        font-size: 10px;
+      }
+
+      .header-contact {
+        width: 38px;
+        height: 38px;
+        justify-content: center;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+      }
+
+      .header-contact span {
+        display: none;
+      }
+
+      .hero {
+        padding: 46px 19px 62px;
+      }
+
+      .hero h1 {
+        font-size: clamp(29px, 8vw, 39px);
+        letter-spacing: -1px;
+      }
+
+      .hero-description {
+        font-size: 14px;
+      }
+
+      .hero-badges {
+        gap: 8px;
+      }
+
+      .info-badge {
+        font-size: 11px;
+        padding: 7px 10px;
+      }
+
+      .page-container {
+        padding: 0 15px 48px;
+      }
+
+      .tab-navigation {
+        width: 100%;
+        margin-top: -23px;
+        gap: 4px;
+        padding: 5px;
+      }
+
+      .tab-button {
+        flex: 1;
+        min-height: 43px;
+        padding: 9px 8px;
+        font-size: 12px;
+      }
+
+      .document-heading h2 {
+        font-size: 26px;
+      }
+
+      .content-card {
+        padding: 22px 18px;
+        margin-bottom: 14px;
+        border-radius: 14px;
+      }
+
+      .section-heading {
+        gap: 11px;
+      }
+
+      .section-heading h3 {
+        font-size: 17px;
+      }
+
+      .section-number {
+        flex-basis: 33px;
+        width: 33px;
+        height: 33px;
+        border-radius: 9px;
+      }
+
+      .content-card p,
+      .content-card li {
+        font-size: 14px;
+      }
+
+      .privacy-callout {
+        padding: 17px;
+        gap: 12px;
+      }
+
+      .callout-icon {
+        flex-basis: 36px;
+        width: 36px;
+        height: 36px;
+      }
+
+      .permission-item {
+        padding: 12px;
+        gap: 10px;
+      }
+
+      .permission-check {
+        flex-basis: 27px;
+        width: 27px;
+        height: 27px;
+      }
+
+      .permission-copy code {
+        font-size: 11px;
+      }
+
+      .developer-card {
+        padding: 23px 19px;
+      }
+
+      .developer-card-inner {
+        align-items: flex-start;
+        gap: 13px;
+      }
+
+      .developer-icon {
+        flex-basis: 43px;
+        width: 43px;
+        height: 43px;
+        border-radius: 11px;
+      }
+
+      .developer-card h3 {
+        font-size: 18px;
+      }
+
+      .developer-email {
+        font-size: 12px;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .brand-tagline {
+        max-width: 195px;
+      }
+
+      .brand-name {
+        font-size: 14px;
+      }
+
+      .hero-badges {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .info-badge {
+        justify-content: center;
+      }
+
+      .tab-button {
+        font-size: 11px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    @media print {
+      .site-header {
+        position: static;
+      }
+
+      .tab-navigation,
+      .header-contact,
+      .back-to-top {
+        display: none !important;
+      }
+
+      .document-panel[hidden] {
+        display: block !important;
+      }
+
+      .document-panel {
+        animation: none;
+      }
+
+      .content-card,
+      .developer-card {
+        break-inside: avoid;
+        box-shadow: none;
+      }
+
+      body {
+        background: white;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="SmArt Task ManageR home">
+        <div class="brand-logo">
+          <!-- Replace the src with your hosted logo URL or a base64-embedded logo. -->
+          <img
+            src="logo.png"
+            alt="SmArt Task ManageR logo"
+            width="54"
+            height="54"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='grid';"
+          >
+          <span style="display:none;place-items:center;width:100%;height:100%;font-weight:900;color:#2C7CCF;">S</span>
+        </div>
+        <div>
+          <p class="brand-name">SmArt Task ManageR</p>
+          <p class="brand-tagline">Beyond Notifications. Your Tasks Call You.</p>
+        </div>
+      </a>
+
+      <a
+        class="header-contact"
+        href="mailto:bhartiyainnovators@gmail.com"
+        aria-label="Email Bharatiya Innovators"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+          aria-hidden="true">
+          <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+          <path d="m3 7 9 6 9-6"></path>
+        </svg>
+        <span>Contact Developer</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-inner">
+        <span class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          Transparency &amp; Trust
+        </span>
+
+        <h1 id="page-title">Your Tasks. Your Data.<br><span>Your Control.</span></h1>
+
+        <p class="hero-description">
+          Learn how SmArt Task ManageR handles your information, uses Android
+          permissions, and provides task reminders. We believe in clear
+          policies and a privacy-conscious productivity experience.
+        </p>
+
+        <div class="hero-badges">
+          <span class="info-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <rect x="3" y="5" width="18" height="16" rx="2"></rect>
+              <path d="M16 3v4M8 3v4M3 10h18"></path>
+            </svg>
+            Effective Date: October 10, 2024
+          </span>
+
+          <span class="info-badge orange">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4Z"></path>
+              <path d="m9 12 2 2 4-4"></path>
+            </svg>
+            Privacy-First Design
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-container">
+      <nav class="tab-navigation" role="tablist" aria-label="Legal documents">
+        <button
+          class="tab-button"
+          id="privacy-tab"
+          type="button"
+          role="tab"
+          aria-selected="true"
+          aria-controls="privacy-panel"
+          tabindex="0"
+          data-tab="privacy"
+        >
+          Privacy Policy
+        </button>
+
+        <button
+          class="tab-button"
+          id="terms-tab"
+          type="button"
+          role="tab"
+          aria-selected="false"
+          aria-controls="terms-panel"
+          tabindex="-1"
+          data-tab="terms"
+        >
+          Terms &amp; Conditions
+        </button>
+      </nav>
+
+      <!-- PRIVACY POLICY -->
+      <section
+        class="document-panel"
+        id="privacy-panel"
+        role="tabpanel"
+        aria-labelledby="privacy-tab"
+      >
+        <div class="document-heading">
+          <h2>Privacy Policy</h2>
+          <p>
+            Effective Date: October 10, 2024
+            &nbsp;·&nbsp; Developer: Bharatiya Innovators
+          </p>
+        </div>
+
+        <div class="privacy-callout">
+          <div class="callout-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <rect x="5" y="10" width="14" height="11" rx="2"></rect>
+              <path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
+              <path d="m10 15 1.5 1.5L14.5 13"></path>
+            </svg>
+          </div>
+          <div>
+            <h3>Designed with privacy in mind</h3>
+            <p>
+              SmArt Task ManageR is designed to keep task information on your
+              device. According to our stated practices, the app does not
+              operate its own remote servers to collect or synchronize your
+              task information.
+            </p>
+          </div>
+        </div>
+
+        <article class="content-card" id="privacy-overview">
+          <div class="section-heading">
+            <span class="section-number">01</span>
+            <h3>Overview</h3>
+          </div>
+          <p>
+            Welcome to <strong>SmArt Task ManageR</strong> ("App", "we", "us",
+            or "our"), developed by <strong>Bharatiya Innovators</strong>.
+            We value your privacy and aim to be transparent about how
+            information is handled when you use our Android application.
+          </p>
+          <p>
+            This Privacy Policy describes our stated data-handling practices,
+            the permissions used by the app, and the controls available to you.
+            Please read it carefully before using the application.
+          </p>
+        </article>
+
+        <article class="content-card" id="privacy-storage">
+          <div class="section-heading">
+            <span class="section-number">02</span>
+            <h3>Data Storage &amp; Privacy by Design</h3>
+          </div>
+          <p>
+            <strong>Local task storage:</strong> Task information, including
+            task titles, descriptions, categories, repetition schedules,
+            completion statuses, and app preferences, is intended to be
+            stored locally on your device using a Room database.
+          </p>
+          <p>
+            <strong>No developer-operated task synchronization:</strong>
+            The app is designed as an offline productivity tool and does not
+            operate its own remote server for automatically uploading,
+            synchronizing, tracking, or selling your task information.
+          </p>
+          <p>
+            <strong>Device and system services:</strong> Android operating
+            system features, device backup settings, speech engines, and any
+            enabled third-party components may operate independently of the
+            app. Their behavior depends on your device configuration and the
+            services you use.
+          </p>
+          <div class="note-box">
+            Your device's backup configuration may affect whether app data is
+            copied or restored by Android. Do not assume that clearing local
+            storage removes copies that may exist in a separately configured
+            device backup.
+          </div>
+        </article>
+
+        <article class="content-card" id="privacy-collection">
+          <div class="section-heading">
+            <span class="section-number">03</span>
+            <h3>Data We Do Not Intentionally Collect</h3>
+          </div>
+          <p>
+            Under the app's stated data practices, we do not intentionally
+            collect or transmit the following categories of personal
+            information to developer-operated servers:
+          </p>
+          <ul>
+            <li>Personally identifying details such as your full name, postal address, or phone number.</li>
+            <li>Biometric information such as fingerprints or facial-recognition data.</li>
+            <li>Precise GPS location coordinates.</li>
+            <li>Personal photos, contacts, media, or files from your device.</li>
+            <li>Your task titles, descriptions, and completion history for remote task tracking.</li>
+          </ul>
+          <p>
+            The app's actual behavior, operating-system services, and any
+            third-party components must be considered when interpreting these
+            statements. We do not intend this section to describe independent
+            processing performed by Android or other services outside our
+            control.
+          </p>
+        </article>
+
+        <article class="content-card" id="privacy-permissions">
+          <div class="section-heading">
+            <span class="section-number">04</span>
+            <h3>Android Permissions &amp; Their Purpose</h3>
+          </div>
+          <p>
+            SmArt Task ManageR may request Android permissions to provide
+            reminders, schedule alarms, and deliver voice notifications.
+            Permission availability and behavior depend on your Android
+            version, device settings, and applicable system restrictions.
+          </p>
+
+          <ul class="permission-list">
+            <li class="permission-item">
+              <span class="permission-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="m5 12 4 4L19 6"></path>
+                </svg>
+              </span>
+              <div class="permission-copy">
+                <code>POST_NOTIFICATIONS</code>
+                <p>
+                  Requests permission to display task reminders and
+                  notification alerts on Android 13 and later, where
+                  applicable.
+                </p>
+              </div>
+            </li>
+
+            <li class="permission-item">
+              <span class="permission-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="m5 12 4 4L19 6"></path>
+                </svg>
+              </span>
+              <div class="permission-copy">
+                <code>SCHEDULE_EXACT_ALARM</code>
+                <p>
+                  Supports scheduling alarms at precise times for tasks
+                  that require time-sensitive reminders, subject to Android
+                  permission and eligibility requirements.
+                </p>
+              </div>
+            </li>
+
+            <li class="permission-item">
+              <span class="permission-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="m5 12 4 4L19 6"></path>
+                </svg>
+              </span>
+              <div class="permission-copy">
+                <code>SYSTEM_ALERT_WINDOW</code>
+                <p>
+                  Allows supported overlay interfaces to appear over other
+                  apps when required by a reminder feature and authorized
+                  by the user.
+                </p>
+              </div>
+            </li>
+
+            <li class="permission-item">
+              <span class="permission-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="m5 12 4 4L19 6"></path>
+                </svg>
+              </span>
+              <div class="permission-copy">
+                <code>USE_FULL_SCREEN_INTENT</code>
+                <p>
+                  Supports full-screen, call-style reminder interfaces for
+                  eligible high-priority tasks, subject to Android and
+                  Google Play restrictions.
+                </p>
+              </div>
+            </li>
+
+            <li class="permission-item">
+              <span class="permission-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="m5 12 4 4L19 6"></path>
+                </svg>
+              </span>
+              <div class="permission-copy">
+                <code>MODIFY_AUDIO_SETTINGS</code>
+                <p>
+                  Supports audio-setting adjustments associated with voice
+                  reminders and compatible audio output behavior.
+                </p>
+              </div>
+            </li>
+
+            <li class="permission-item">
+              <span class="permission-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="m5 12 4 4L19 6"></path>
+                </svg>
+              </span>
+              <div class="permission-copy">
+                <code>WAKE_LOCK</code>
+                <p>
+                  Helps keep the processor running during supported alarm
+                  operations so the app can perform time-sensitive reminder
+                  tasks.
+                </p>
+              </div>
+            </li>
+
+            <li class="permission-item">
+              <span class="permission-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="m5 12 4 4L19 6"></path>
+                </svg>
+              </span>
+              <div class="permission-copy">
+                <code>BLUETOOTH</code>
+                <p>
+                  Supports the detection or use of compatible connected
+                  Bluetooth audio devices for voice reminder output, where
+                  permitted by the Android version and implementation.
+                </p>
+              </div>
+            </li>
+
+            <li class="permission-item">
+              <span class="permission-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="m5 12 4 4L19 6"></path>
+                </svg>
+              </span>
+              <div class="permission-copy">
+                <code>RECEIVE_BOOT_COMPLETED</code>
+                <p>
+                  Allows the app to restore eligible scheduled reminders
+                  after the device restarts.
+                </p>
+              </div>
+            </li>
+
+            <li class="permission-item">
+              <span class="permission-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="m5 12 4 4L19 6"></path>
+                </svg>
+              </span>
+              <div class="permission-copy">
+                <code>DISABLE_KEYGUARD</code>
+                <p>
+                  May support the intended reminder screen experience on
+                  compatible devices. It does not grant permission to
+                  bypass the user's device authentication or security.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <p>
+            We intend these permissions to support the app's task management
+            and reminder features, not to collect unrelated personal
+            information. You can manage available permissions in Android
+            settings.
+          </p>
+
+          <div class="note-box">
+            Some permissions require separate user approval or are subject
+            to Android version-specific restrictions. Denying a permission
+            or enabling battery restrictions may affect reminder behavior.
+          </div>
+        </article>
+
+        <article class="content-card" id="privacy-third-party">
+          <div class="section-heading">
+            <span class="section-number">05</span>
+            <h3>Third-Party Services</h3>
+          </div>
+          <p>
+            The app is designed to operate without third-party advertising
+            or cross-app tracking SDKs.
+          </p>
+          <p>
+            Android system services, installed text-to-speech engines,
+            Bluetooth components, device manufacturers, and services
+            configured by you may process information according to their
+            own policies. For example, speech processing behavior can vary
+            depending on whether your selected speech engine operates
+            entirely on-device or uses an external service.
+          </p>
+          <p>
+            Please consult the relevant provider's privacy information
+            for services that are independently managed by that provider.
+          </p>
+        </article>
+
+        <article class="content-card" id="privacy-security">
+          <div class="section-heading">
+            <span class="section-number">06</span>
+            <h3>Data Security, Retention &amp; Deletion</h3>
+          </div>
+          <p>
+            Task information is intended to remain in the app's local
+            storage. The Android application sandbox provides operating
+            system isolation between applications, but no storage system
+            can be guaranteed to be completely secure in every circumstance.
+          </p>
+          <p>
+            You can edit or delete task information within the app where
+            those controls are available. You can also clear the app's
+            storage or uninstall it through Android settings.
+          </p>
+          <p>
+            Clearing storage or uninstalling the app may permanently remove
+            locally stored tasks, preferences, and schedules. Separately
+            retained device backups, if enabled, may be subject to Android's
+            backup and restoration behavior.
+          </p>
+          <p>
+            Because the app is designed without a developer-operated
+            account-based task repository, we do not provide server-side
+            recovery of tasks that exist only in local app storage.
+          </p>
+        </article>
+
+        <article class="content-card" id="privacy-children">
+          <div class="section-heading">
+            <span class="section-number">07</span>
+            <h3>Children's Privacy</h3>
+          </div>
+          <p>
+            SmArt Task ManageR is not specifically directed at children
+            under 13 years of age. Under the app's stated data practices,
+            we do not knowingly collect children's personal information
+            through a developer-operated task data collection system.
+          </p>
+          <p>
+            If you believe that personal information has been provided
+            to us in a manner inconsistent with this policy, please contact
+            us using the details below so that we can review your concern.
+          </p>
+        </article>
+
+        <article class="content-card" id="privacy-changes">
+          <div class="section-heading">
+            <span class="section-number">08</span>
+            <h3>Changes to This Privacy Policy</h3>
+          </div>
+          <p>
+            We may update this Privacy Policy to reflect changes in the app,
+            its features, applicable requirements, or our data-handling
+            practices.
+          </p>
+          <p>
+            Updated versions will display a revised effective date where
+            appropriate. If a change materially affects privacy, we will
+            provide notice or obtain consent where required by applicable
+            law.
+          </p>
+        </article>
+
+        <article class="content-card" id="privacy-contact">
+          <div class="section-heading">
+            <span class="section-number">09</span>
+            <h3>Contact Us</h3>
+          </div>
+          <p>
+            If you have questions, concerns, or feedback about this Privacy
+            Policy, please contact the developer.
+          </p>
+        </article>
+
+        <aside class="developer-card" aria-label="Developer contact information">
+          <div class="developer-card-inner">
+            <div class="developer-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M20 7 10 17l-5-5"></path>
+                <path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                <path d="m15 3 6 0 0 6"></path>
+              </svg>
+            </div>
+            <div>
+              <p class="small-label">Developed with care by</p>
+              <h3>Bharatiya Innovators</h3>
+              <p>We're here to help with your privacy questions.</p>
+              <a class="developer-email" href="mailto:bhartiyainnovators@gmail.com">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                  <path d="m3 7 9 6 9-6"></path>
+                </svg>
+                bhartiyainnovators@gmail.com
+              </a>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- TERMS AND CONDITIONS -->
+      <section
+        class="document-panel"
+        id="terms-panel"
+        role="tabpanel"
+        aria-labelledby="terms-tab"
+        hidden
+      >
+        <div class="document-heading">
+          <h2>Terms &amp; Conditions</h2>
+          <p>
+            Effective Date: October 10, 2024
+            &nbsp;·&nbsp; Developer: Bharatiya Innovators
+          </p>
+        </div>
+
+        <div class="privacy-callout">
+          <div class="callout-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <path d="M8 3h8l4 4v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2Z"></path>
+              <path d="M16 3v5h4M8 13h8M8 17h6"></path>
+            </svg>
+          </div>
+          <div>
+            <h3>Simple, transparent terms</h3>
+            <p>
+              These terms explain how you may use SmArt Task ManageR,
+              what you need to know about reminders and device compatibility,
+              and the responsibilities associated with using the app.
+            </p>
+          </div>
+        </div>
+
+        <article class="content-card" id="terms-acceptance">
+          <div class="section-heading">
+            <span class="section-number">01</span>
+            <h3>Acceptance of Terms</h3>
+          </div>
+          <p>
+            By installing, accessing, or using SmArt Task ManageR, you agree
+            to these Terms and Conditions and the applicable Privacy Policy.
+            If you do not agree, you should stop using the app and uninstall
+            it from your device.
+          </p>
+          <p>
+            If applicable law requires a particular form of consent or
+            acceptance, that requirement will apply notwithstanding this
+            general statement.
+          </p>
+        </article>
+
+        <article class="content-card" id="terms-service">
+          <div class="section-heading">
+            <span class="section-number">02</span>
+            <h3>Scope of Service</h3>
+          </div>
+          <p>
+            SmArt Task ManageR is a personal productivity application
+            developed by Bharatiya Innovators. Its intended features include:
+          </p>
+          <ul>
+            <li>Creating and organizing personal tasks.</li>
+            <li>Scheduling task reminders and alarms.</li>
+            <li>Configuring recurring tasks and repetition schedules.</li>
+            <li>Receiving notification and supported full-screen reminders.</li>
+            <li>Using voice reminders through compatible text-to-speech and audio services.</li>
+          </ul>
+          <p>
+            The app is designed primarily as an offline productivity helper.
+            Available features may vary according to your device, Android
+            version, permissions, and app version.
+          </p>
+        </article>
+
+        <article class="content-card" id="terms-responsibilities">
+          <div class="section-heading">
+            <span class="section-number">03</span>
+            <h3>User Responsibilities</h3>
+          </div>
+          <p>
+            You are responsible for configuring and using the app in a
+            manner that is appropriate for your device and needs. This
+            includes:
+          </p>
+          <ul>
+            <li>Granting the notifications, exact-alarm, overlay, or other permissions needed for the features you choose to use.</li>
+            <li>Reviewing relevant battery optimization and background execution settings on your device.</li>
+            <li>Maintaining accurate device time, sufficient battery power, and compatible Android system settings.</li>
+            <li>Reviewing scheduled tasks and ensuring that their dates, times, and repetition settings are correct.</li>
+            <li>Keeping any important task information separately if you cannot afford to lose it.</li>
+            <li>Using the application lawfully and not attempting to disrupt its operation or compromise its security.</li>
+          </ul>
+        </article>
+
+        <article class="content-card" id="terms-reliability">
+          <div class="section-heading">
+            <span class="section-number">04</span>
+            <h3>Reminder Reliability &amp; Device Compatibility</h3>
+          </div>
+          <p>
+            Although the app is designed to provide timely reminders, we
+            cannot guarantee that every alarm, notification, or voice
+            reminder will occur at the intended time on every device.
+          </p>
+          <p>
+            Reminder behavior may be affected by, among other things:
+          </p>
+          <ul>
+            <li>Denied or revoked Android permissions.</li>
+            <li>Battery optimization and manufacturer-specific background restrictions.</li>
+            <li>Device shutdown, restart, low battery, or power-saving modes.</li>
+            <li>Do Not Disturb settings, notification settings, or system-level restrictions.</li>
+            <li>Changes to the system clock, time zone, or daylight-saving rules where applicable.</li>
+            <li>Android version differences, software updates, or incompatible device features.</li>
+            <li>Unavailable or misconfigured audio output and text-to-speech services.</li>
+          </ul>
+          <p>
+            You should periodically review your schedules and device settings,
+            particularly after an operating system update or a change to
+            application permissions.
+          </p>
+        </article>
+
+        <article class="content-card" id="terms-not-safety-critical">
+          <div class="section-heading">
+            <span class="section-number">05</span>
+            <h3>Not a Safety-Critical Alert System</h3>
+          </div>
+          <p>
+            SmArt Task ManageR is a productivity tool, not an emergency
+            notification service, medical device, or guaranteed safety-critical
+            alert system.
+          </p>
+          <p>
+            Do not rely on the app as your sole means of managing emergencies,
+            medication schedules, life-critical deadlines, or other situations
+            where a missed reminder could cause serious harm. Use appropriate
+            alternative safeguards where necessary.
+          </p>
+        </article>
+
+        <article class="content-card" id="terms-data">
+          <div class="section-heading">
+            <span class="section-number">06</span>
+            <h3>Local Data &amp; Data Loss</h3>
+          </div>
+          <p>
+            Task information and app preferences are designed to be stored
+            locally on your device. Unless a separately documented feature
+            is provided, you should not assume that the developer maintains
+            a server-side copy of your tasks.
+          </p>
+          <p>
+            Clearing application storage, uninstalling the app, resetting
+            your device, or experiencing device failure may result in
+            permanent loss of locally stored information. Any backup or
+            restoration behavior depends on the relevant system and
+            configuration.
+          </p>
+          <p>
+            You are responsible for maintaining independent copies of
+            information that is important to you, using supported methods
+            where available.
+          </p>
+        </article>
+
+        <article class="content-card" id="terms-ip">
+          <div class="section-heading">
+            <span class="section-number">07</span>
+            <h3>Intellectual Property &amp; Permitted Use</h3>
+          </div>
+          <p>
+            The application and its developer-created branding, design,
+            graphics, and software are owned by or licensed to Bharatiya
+            Innovators, subject to any applicable third-party rights.
+          </p>
+          <p>
+            You may use the app for your personal, lawful task-management
+            purposes in accordance with these terms and the applicable
+            distribution platform's rules.
+          </p>
+          <p>
+            You must not misuse the app, interfere with its operation, or
+            reproduce, redistribute, or exploit protected materials without
+            appropriate authorization, except where permitted by applicable
+            law or an applicable license.
+          </p>
+        </article>
+
+        <article class="content-card" id="terms-availability">
+          <div class="section-heading">
+            <span class="section-number">08</span>
+            <h3>Availability &amp; Changes to the App</h3>
+          </div>
+          <p>
+            We may update, modify, improve, limit, or discontinue features
+            as necessary for maintenance, compatibility, security, or other
+            legitimate product requirements.
+          </p>
+          <p>
+            We do not guarantee uninterrupted availability or compatibility
+            with every device or future operating system version. Where
+            required by law, applicable consumer rights and remedies remain
+            unaffected.
+          </p>
+        </article>
+
+        <article class="content-card" id="terms-liability">
+          <div class="section-heading">
+            <span class="section-number">09</span>
+            <h3>Disclaimer &amp; Limitation of Liability</h3>
+          </div>
+          <p>
+            To the extent permitted by applicable law, the app is provided
+            on an "AS IS" and "AS AVAILABLE" basis, without a guarantee that
+            every feature will be uninterrupted, error-free, or suitable for
+            every user's particular requirements.
+          </p>
+          <p>
+            The developer is not responsible for failures caused by device
+            power restrictions, operating system behavior, unavailable
+            permissions, incompatible software, incorrect user settings,
+            or other circumstances outside the developer's reasonable
+            control, to the extent permitted by law.
+          </p>
+          <p>
+            Nothing in these terms excludes or limits liability where such
+            exclusion or limitation is prohibited by applicable law,
+            including any mandatory consumer rights or remedies.
+          </p>
+        </article>
+
+        <article class="content-card" id="terms-changes">
+          <div class="section-heading">
+            <span class="section-number">10</span>
+            <h3>Changes to These Terms</h3>
+          </div>
+          <p>
+            We may revise these Terms and Conditions from time to time.
+            Revised terms will be published with an updated effective date
+            where appropriate.
+          </p>
+          <p>
+            Where required by applicable law, material changes will be
+            notified and any necessary consent will be obtained. Continued
+            use of the app will be treated as acceptance of revised terms
+            only to the extent permitted by applicable law.
+          </p>
+        </article>
+
+        <article class="content-card" id="terms-law">
+          <div class="section-heading">
+            <span class="section-number">11</span>
+            <h3>Applicable Law &amp; Severability</h3>
+          </div>
+          <p>
+            These terms are subject to applicable laws and mandatory
+            consumer protections. Any governing-law or dispute-resolution
+            provisions must be interpreted consistently with rights that
+            cannot lawfully be waived.
+          </p>
+          <p>
+            If a provision is found unenforceable, the remaining provisions
+            will continue to apply to the extent permitted by law.
+          </p>
+        </article>
+
+        <article class="content-card" id="terms-contact">
+          <div class="section-heading">
+            <span class="section-number">12</span>
+            <h3>Contact Information</h3>
+          </div>
+          <p>
+            For questions, feedback, or support relating to these Terms
+            and Conditions, please contact Bharatiya Innovators using the
+            details below.
+          </p>
+        </article>
+
+        <aside class="developer-card" aria-label="Developer contact information">
+          <div class="developer-card-inner">
+            <div class="developer-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M20 7 10 17l-5-5"></path>
+                <path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                <path d="m15 3 6 0 0 6"></path>
+              </svg>
+            </div>
+            <div>
+              <p class="small-label">Developer &amp; Support</p>
+              <h3>Bharatiya Innovators</h3>
+              <p>Questions about the app or these terms? Get in touch.</p>
+              <a class="developer-email" href="mailto:bhartiyainnovators@gmail.com">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                  <path d="m3 7 9 6 9-6"></path>
+                </svg>
+                bhartiyainnovators@gmail.com
+              </a>
+            </div>
+          </div>
+        </aside>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-brand">
+      SmArt Task <span class="footer-accent">ManageR</span>
+    </p>
+    <p>Beyond Notifications. Your Tasks Call You.</p>
+    <p>&copy; <span id="current-year">2026</span> Bharatiya Innovators. All rights reserved.</p>
+    <a class="back-to-top" href="#top">
+      Back to top
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        aria-hidden="true">
+        <path d="m18 15-6-6-6 6"></path>
+      </svg>
+    </a>
+  </footer>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const tabs = Array.from(document.querySelectorAll(".tab-button"));
+      const panels = {
+        privacy: document.getElementById("privacy-panel"),
+        terms: document.getElementById("terms-panel")
+      };
+
+      function activateTab(name, moveFocus = false) {
+        if (!Object.prototype.hasOwnProperty.call(panels, name)) {
+          return;
+        }
+
+        tabs.forEach((tab) => {
+          const selected = tab.dataset.tab === name;
+
+          tab.setAttribute("aria-selected", String(selected));
+          tab.setAttribute("tabindex", selected ? "0" : "-1");
+
+          if (selected && moveFocus) {
+            tab.focus();
+          }
+        });
+
+        Object.entries(panels).forEach(([key, panel]) => {
+          panel.hidden = key !== name;
+        });
+      }
+
+      tabs.forEach((tab, index) => {
+        tab.addEventListener("click", () => {
+          activateTab(tab.dataset.tab);
+        });
+
+        tab.addEventListener("keydown", (event) => {
+          let nextIndex = null;
+
+          if (event.key === "ArrowRight") {
+            nextIndex = (index + 1) % tabs.length;
+          } else if (event.key === "ArrowLeft") {
+            nextIndex = (index - 1 + tabs.length) % tabs.length;
+          } else if (event.key === "Home") {
+            nextIndex = 0;
+          } else if (event.key === "End") {
+            nextIndex = tabs.length - 1;
+          }
+
+          if (nextIndex !== null) {
+            event.preventDefault();
+            const nextTab = tabs[nextIndex];
+            activateTab(nextTab.dataset.tab, true);
+          }
+        });
+      });
+
+      const yearElement = document.getElementById("current-year");
+
+      if (yearElement) {
+        yearElement.textContent = String(new Date().getFullYear());
+      }
+
+      // Support direct links such as index.html#terms-panel.
+      function activateFromHash() {
+        const hash = window.location.hash;
+
+        if (hash === "#terms-panel" || hash.startsWith("#terms-")) {
+          activateTab("terms");
+        } else if (hash === "#privacy-panel" || hash.startsWith("#privacy-")) {
+          activateTab("privacy");
+        }
+      }
+
+      window.addEventListener("hashchange", activateFromHash);
+      activateFromHash();
+    })();
+  </script>
+</body>
+</html>
